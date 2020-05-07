@@ -1,9 +1,7 @@
 # BreadCo_Elk_Stack
 
 ********************************************************************************
- (\\\_/)                Author: Bradley Stradling                          (\\\_/)
- (o.o)       Title: Automated ELK Stack Deployment for BreadCo.          (*.*)
- (")\_(")             Lincense: https://unlicense.org/                    (")\_(")
+## Author: Bradley Stradling
 ********************************************************************************
 
 The files in this repository were used to configure the network deployment 
