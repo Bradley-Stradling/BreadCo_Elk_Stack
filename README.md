@@ -66,6 +66,12 @@ A summary of the access policies in place can be found in the table below.
 
 ![](Images/Firewall_Settings.png)
 
+There is always a few steps to take when securing a newly created linux system.
+
+-See "Usage_Guides/Deploying_Linux_Deb_Box_Servers" to see how to automate the 
+deployment of my bash alias and scripting enviroment for servers that helps to 
+automate securing of the systems."
+
 ### WebServer Configuration
 
 Ansible was used to automate configuration of the webservers.
@@ -122,3 +128,5 @@ any of the playbooks.
 -See "Usage_Guides/Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
 
 -See "Usage_Guides/Configuring_ELK.md" to see the set-up and deployment of filebeats.
+
+-See "Usage_Guides/Deploying_Linux_Deb_Box_Servers to see how to automate the deployment of my bash alias and scripting enviroment."
