@@ -113,12 +113,12 @@ We have installed the following Beats on these machines:
 
 ### Using the Playbooks
 
--See "Configuring_Ansible.md" to see the set up for ansible container on the 
+-See "Usage_Guides/Configuring_Ansible.md" to see the set up for ansible container on the 
 jump box system. The ansible container setup is required for setting up or deploying
 any of the playbooks.
 
--See "Configuring_DVWA_Webservers.md" to see the set-up and deployment of filebeats.
+-See "Usage_Guides/Configuring_DVWA_Webservers.md" to see the set-up and deployment of filebeats.
 
--See "Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
+-See "Usage_Guides/Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
 
--See "Configuring_ELK.md" to see the set-up and deployment of filebeats.
+-See "Usage_Guides/Configuring_ELK.md" to see the set-up and deployment of filebeats.
