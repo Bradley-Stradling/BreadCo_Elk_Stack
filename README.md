@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network deployment 
 depicted below.
 
-![](Images/Network_Diagram.png)
+![](Images/Network_Diagram.PNG)
 ![](Images/Firewall_Settings.png)
 
 All machines were spun up using Azure's provided Linux (ubuntu 18.04) operating 
