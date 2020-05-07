@@ -107,8 +107,18 @@ This ELK server is configured to monitor the webserver machines.
 
 We have installed the following Beats on these machines:
 
-These Beats allow us to collect the following information from each machine:
+-Filebeats:
+
+-Metricbeats:
 
 ### Using the Playbooks
-In order to use the playbooks, you will need to have an Ansible control node 
-already configured. Assuming you have such a control node provisioned: 
+
+-See "Configuring_Ansible.md" to see the set up for ansible container on the 
+jump box system. The ansible container setup is required for setting up or deploying
+any of the playbooks.
+
+-See "Configuring_DVWA_Webservers.md" to see the set-up and deployment of filebeats.
+
+-See "Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
+
+-See "Configuring_ELK.md" to see the set-up and deployment of filebeats.
