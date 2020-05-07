@@ -70,7 +70,7 @@ There is always a few steps to take when securing a newly created linux system.
 
 -See "Usage_Guides/Deploying_Linux_Deb_Box_Servers" to see how to automate the 
 deployment of my bash alias and scripting enviroment for servers that helps to 
-automate securing of the systems."
+automate securing of the systems. Ansible will need to be configured for this.
 
 ### WebServer Configuration
 
