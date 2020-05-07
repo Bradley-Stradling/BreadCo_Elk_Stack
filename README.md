@@ -1,5 +1,3 @@
-# BreadCo_Elk_Stack
-## Author: Bradley Stradling
 ********************************************************************************
 
 The files in this repository were used to configure the network deployment 
