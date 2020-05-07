@@ -1,7 +1,7 @@
 # BreadCo_Elk_Stack
 
 ********************************************************************************
- (\_/)                Author: Bradley Stradling                          (\_/)
+ (\\_/)                Author: Bradley Stradling                          (\\_/)
  (o.o)       Title: Automated ELK Stack Deployment for BreadCo.          (*.*)
 (")_(")             Lincense: https://unlicense.org/                    (")_(")
 ********************************************************************************
