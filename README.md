@@ -6,7 +6,7 @@ The files in this repository were used to configure the network deployment
 depicted below.
 
 ![](Images/Network_Diagram.PNG)
-![](Images/Firewall_Settings.png)
+
 
 All machines were spun up using Azure's provided Linux (ubuntu 18.04) operating 
 system.
@@ -63,6 +63,8 @@ A summary of the access policies in place can be found in the table below.
 | BreadCoWebServer3        | No            | None                 |
 | BreadCoWebServer4        | No            | None                 |
 | BreadCoElkStack          | ELK page only | None                 |
+
+![](Images/Firewall_Settings.png)
 
 ### WebServer Configuration
 
