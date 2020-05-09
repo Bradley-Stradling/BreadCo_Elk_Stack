@@ -30,7 +30,7 @@ This document contains the following details:
   - Beats in Use## Automated ELK Stack Deployment for BreadCo.
   - Machines Being Monitored
 - List of files used
-- How to Use the Ansible Build
+- Links to usage guides to help get a similar set-up going.
 
 ### Description of the Topology
 
