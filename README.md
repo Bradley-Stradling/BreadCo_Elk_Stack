@@ -5,7 +5,7 @@
 The files in this repository were used to configure the network deployment 
 depicted below.
 
-![](Images/Network_Diagram.PNG)
+![](Images/ReadMe/Network_Diagram.PNG)
 
 
 All machines were spun up using Azure's provided Linux (ubuntu 18.04) operating 
@@ -64,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 | BreadCoWebServer4        | No            | None                 |
 | BreadCoElkStack          | ELK page only | None                 |
 
-![](Images/Firewall_Settings.png)
+![](Images/ReadMe/Firewall_Settings.png)
 
 There is always a few steps to take when securing a newly created linux system.
 
@@ -106,7 +106,7 @@ The deployelkservers.yml playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after 
 successfully configuring the ELK instance.
 
-![](Images/Elk_Docker_PS_Output.PNG)
+![](Images/ReadMe/Elk_Docker_PS_Output.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the webserver machines.
@@ -118,6 +118,8 @@ We have installed the following Beats on these machines:
 -Metricbeats:
 
 ### Using the Playbooks
+
+-Setting up the Azure network machines is not included in any guides here.
 
 -See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_Ansible.md" to see the set up for ansible container on the jump box system. The ansible container setup is required for setting up or deploying
 any of the playbooks.
