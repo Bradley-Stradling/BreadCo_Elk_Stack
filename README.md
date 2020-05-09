@@ -85,6 +85,14 @@ The deployfilebeattowebservers.yml playbook implements the following tasks:
 - Runs the filebeat setup command.
 - Starts the filebeat services.
 
+The deploymetricbeattowebserver.yml playbook implements the following tasks:
+- Downloads metricbeat-7.4.0-amd64.deb to the webservers.
+- Installs metricbeat to the webservers.
+- Drops in the metric.yml config file.
+- Enables the metricbeat docker modules system.
+- Runs the metricbeat setup command.
+- Starts the metricbeat services.
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine as well. 
