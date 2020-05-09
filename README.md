@@ -126,3 +126,7 @@ any of the playbooks.
 -See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
 
 -See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_Metric_Beats.md" to see the set-up and deployment of metricbeats.
+
+### File List
+
+#### ansible.cfg
