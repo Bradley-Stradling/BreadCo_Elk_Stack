@@ -119,14 +119,13 @@ We have installed the following Beats on these machines:
 
 ### Using the Playbooks
 
--See "Usage_Guides/Configuring_Ansible.md" to see the set up for ansible container on the 
-jump box system. The ansible container setup is required for setting up or deploying
+-See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_Ansible.md" to see the set up for ansible container on the jump box system. The ansible container setup is required for setting up or deploying
 any of the playbooks.
 
--See "Usage_Guides/Configuring_DVWA_Webservers.md" to see the set-up and deployment of filebeats.
+-See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_DVWA_Webservers.md" to see the set-up and deployment of the dvwa webservers.
 
--See "Usage_Guides/Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
+-See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_ELK.md" to see the set-up and deployment of of the elk server.
 
--See "Usage_Guides/Configuring_ELK.md" to see the set-up and deployment of filebeats.
+-See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_File_Beats.md" to see the set-up and deployment of filebeats.
 
 -See "https://github.com/Bradley-Stradling/Linux_Deb_Servers" to see how to automate the deployment of my bash alias and scripting enviroment.
