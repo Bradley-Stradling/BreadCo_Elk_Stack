@@ -9,7 +9,7 @@ The password should be changed after you have everything going later as well.
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/File_Beats/Snip_2.png?raw=true)
 
-# Need to add the ip of our kibana and port.(filebeat.yml)
+## Need to add the ip of our kibana and port.(filebeat.yml)
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/File_Beats/Snip_3.png?raw=true)
 
