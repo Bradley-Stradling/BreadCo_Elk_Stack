@@ -9,7 +9,7 @@ The password should be changed after you have everything going later as well.
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/Metric_Beats/Snip_2.PNG?raw=true)
 
-# Need to add the ip of our kibana and port.(metricbeat.yml)
+## Need to add the ip of our kibana and port.(metricbeat.yml)
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/Metric_Beats/Snip_3.PNG?raw=true)
 
