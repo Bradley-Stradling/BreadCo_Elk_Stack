@@ -98,7 +98,7 @@ The deploymetricbeattowebserver.yml playbook implements the following tasks:
 Ansible was used to automate configuration of the ELK machine as well. 
 Again, no configuration is performed manually to allow for easy expandability.
 Though there is only 1 elk server in this configuration, as the playbook could
-install and start multiple elk servers at once the plural is used.
+install and start multiple elk servers at once so the plural is used.
 
 The deployelkservers.yml playbook implements the following tasks:
 - Installs docker to the elkservers.
