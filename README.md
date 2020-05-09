@@ -129,21 +129,40 @@ any of the playbooks.
 
 ## File List
 
-### "ansible.cfg"
+Common locations are either defaults or where I arbitrarily decided to keep them.
+
+### ansible.cfg
 - Common location: /etc/ansible/ansible.cfg
 - Description: configuration file for the ansible docker
-- Changes I made: added remote username on line 111.
+- Changes I made: added remote username on line 111. This allows for ansible to reach boxes on SSH
 
-#### deployelkservers.yml
+### deployelkservers.yml
+- Common location: /etc/ansible/deployelkservers.yml
+- Description: playbook for deploying and starting the elk docker
 
-#### deployfilebeattowebservers.yml
+### deployfilebeattowebservers.yml
+- Common location: /etc/ansible/ansible.cfg
+- Description: playbook for deploying and starting the dvwa dockers
 
-#### deploymetricbeattowebserver.yml
+### deploymetricbeattowebserver.yml
+- Common location: /etc/ansible/deploymetricbeattowebserver.yml
+- Description: playbook for deploying and starting metricbeat on the webservers
 
-#### deploywebservers.yml
+### deploywebservers.yml
+- Common location: /etc/ansible/deploywebservers.yml
+- Description: playbook for deploying and starting the dvwa dockers
 
-#### filebeat.yml
+### filebeat.yml
+- Common location: /etc/ansible/filebeat.yml
+- Description: playbook for deploying and starting the filebeat on the webservers
+- Changes I made: line 1107 and 1807 host to ip for elk server
 
-#### hosts
+### hosts
+- Common location: /etc/ansible/hosts
+- Description: configuration file for the ansible playbook hosts
+- Changes I made: added ip for webservers and ip for elk server
 
-#### metricbeat.yml
+### metricbeat.yml
+- Common location: /etc/metricbeat/metricbeat.yml
+- Description: 
+- Changes I made: line 69 and 96 host to ip for elk server
