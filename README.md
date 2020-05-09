@@ -129,4 +129,4 @@ any of the playbooks.
 
 -See "Usage_Guides/Configuring_ELK.md" to see the set-up and deployment of filebeats.
 
--See "Usage_Guides/Deploying_Linux_Deb_Box_Servers to see how to automate the deployment of my bash alias and scripting enviroment."
+-See "https://github.com/Bradley-Stradling/Linux_Deb_Servers" to see how to automate the deployment of my bash alias and scripting enviroment.
