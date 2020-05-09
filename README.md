@@ -127,9 +127,9 @@ any of the playbooks.
 
 -See "https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Usage_Guides/Configuring_Metric_Beats.md" to see the set-up and deployment of metricbeats.
 
-### File List
+## File List
 
-#### ansible.cfg
+### "ansible.cfg"
 - Common location: /etc/ansible/ansible.cfg
 - Description: configuration file for the ansible docker
 - Changes I made: added remote username on line 111.
