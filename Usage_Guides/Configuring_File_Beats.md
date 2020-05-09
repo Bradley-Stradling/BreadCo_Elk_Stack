@@ -13,6 +13,11 @@ The password should be changed after you have everything going later as well.
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/File_Beats/Snip_3.png?raw=true)
 
+Running the playbook.
+-"ansible-playbook /path/to/deployfilebeattowebservers.yml"
+
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/File_Beats/Snip_4.png?raw=true)
+
+If successful we should see logs coming into kibana on our elk interface page.
 
 ![](https://github.com/Bradley-Stradling/BreadCo_Elk_Stack/blob/master/Images/File_Beats/Snip_5.png?raw=true)
