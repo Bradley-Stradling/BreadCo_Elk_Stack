@@ -65,8 +65,6 @@ A summary of the access policies in place can be found in the table below.
 
 ![](Images/ReadMe/Firewall_Settings.png)
 
-There is always a few steps to take when securing a newly created linux system.
-
 ### WebServer Configuration
 
 Ansible was used to automate configuration of the webservers.
@@ -114,11 +112,11 @@ successfully configuring the ELK instance.
 ### Target Machines & Beats
 This ELK server is configured to monitor the webserver machines.
 
-We have installed the following Beats on these machines:
+The following beats were installed on the webserver machines:
 
--Filebeats:
+-Filebeats: Exports system logs to the elk stack server for parsing and presentation.
 
--Metricbeats:
+-Metricbeats: Tracks and sends docker container usage to the elk stack server for presentation.
 
 ### Using the Playbooks
 
