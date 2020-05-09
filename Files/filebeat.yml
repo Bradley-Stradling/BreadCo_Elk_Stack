@@ -1,3 +1,5 @@
+# crtl+f --> #*#*#*#*# to see changes
+
 ######################## Filebeat Configuration ############################
 # This file is a full configuration example documenting all non-deprecated
 # options in comments. For a shorter configuration example, that contains only
@@ -1102,7 +1104,7 @@ output.elasticsearch:
   # Scheme and port can be left out and will be set to the default (http and 9200)
   # In case you specify and additional path, the scheme is required: http://localhost:9200/path
   # IPv6 addresses should always be defined as: https://[2001:db8::1]:9200
-  hosts: ["11.11.11.9:9200"]
+  hosts: ["11.11.11.9:9200"] #*#*#*#*#
   username: "elastic"
   password: "changeme" # TODO: Change this to the password you set
 
@@ -1802,7 +1804,8 @@ setup.template.settings:
 # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
 # This requires a Kibana endpoint configuration.
 setup.kibana:
-  host: "11.11.11.9:5601" # TODO: Change this to the IP address of your ELK server
+  host: "11.11.11.9:5601" #*#*#*#*#
+  # TODO: Change this to the IP address of your ELK server
   # Kibana Host
   # Scheme and port can be left out and will be set to the default (http and 5601)
   # In case you specify and additional path, the scheme is required: http://localhost:5601/path
