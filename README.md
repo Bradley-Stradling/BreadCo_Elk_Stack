@@ -130,3 +130,20 @@ any of the playbooks.
 ### File List
 
 #### ansible.cfg
+common location: /etc/ansible/ansible.cfg
+Description: configuration file for the ansible docker
+Changes I made: added remote username on line 111.
+
+#### deployelkservers.yml
+
+#### deployfilebeattowebservers.yml
+
+#### deploymetricbeattowebserver.yml
+
+#### deploywebservers.yml
+
+#### filebeat.yml
+
+#### hosts
+
+#### metricbeat.yml
