@@ -7,6 +7,7 @@ depicted below.
 
 ![](Images/ReadMe/Network_Diagram.PNG)
 
+![](Images/Ansible/Snip_1.png)
 
 All machines were spun up using Azure's provided Linux (ubuntu 18.04) operating 
 system.
