@@ -5,3 +5,5 @@ First we will need to add the local IP's of our machines intended for deployment
 ![](master/Images/Ansible/Snip_1.png)
 
 stuff
+
+![](Images/ReadMe/Network_Diagram.PNG)
