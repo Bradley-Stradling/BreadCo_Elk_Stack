@@ -170,5 +170,5 @@ Common locations are either defaults or where I arbitrarily decided to keep them
 
 ### metricbeat.yml
 - Common location: /etc/metricbeat/metricbeat.yml
-- Description: 
+- Description: Configuration file for metricbeat
 - Changes I made: line 69 and 96 host to ip for elk server
